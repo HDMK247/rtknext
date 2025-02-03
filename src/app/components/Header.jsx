@@ -19,6 +19,9 @@ export default function Header() {
           <Link href="/dashboard">
             <span className="cursor-pointer hover:underline">Dashboard</span>
           </Link>
+          <Link href="/crud">
+            <span className="cursor-pointer hover:underline">Crud</span>
+          </Link>
           <Link href="/firestore">
             <span className="cursor-pointer hover:underline">
               Firestore CRUD

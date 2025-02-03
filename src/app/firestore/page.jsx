@@ -48,7 +48,7 @@ export default function FirestorePage() {
           value={newItem}
           onChange={(e) => setNewItem(e.target.value)}
           placeholder="নতুন আইটেম লিখুন"
-          className="border p-2 flex-1 mr-2 rounded"
+          className="border p-2 flex-1 mr-2 rounded text-gray-900"
         />
         <button
           onClick={handleAdd}
